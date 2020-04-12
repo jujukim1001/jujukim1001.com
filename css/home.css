@@ -27,7 +27,15 @@ body {
     font-family: proximaNova;
 }
 
-.navigationBar {
+#content {
+    display: flex;
+    flex-direction: column;    
+    padding-left: 8vw;
+    padding-right: 8vw;
+    /* background-color: green; */
+}
+
+#navigationBar {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -36,24 +44,17 @@ body {
     /* background-color: red; */
 }
 
+#logo {
+    height: 30px;
+    /* background-color: blanchedalmond; */
+}
+
 .menuItem {
     font-size: 20px;
     padding: 0px 20px 0px 20px;
     font-weight: 700;
 }
 
-#logo {
-    height: 30px;
-    /* background-color: blanchedalmond; */
-}
-
-#content {
-    display: flex;
-    flex-direction: column;    
-    padding-left: 8vw;
-    padding-right: 8vw;
-    /* background-color: green; */
-}
 
 #menuItemContainer {
     display: flex;
@@ -67,10 +68,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 70vh;
     min-height: 500px;
     /* background-color: greenyellow; */
-    padding: 0px 12vw 0px 12vw;
+    padding: 5vh 12vw 5vh 12vw;
 }
 
 .introductionItem {
@@ -109,4 +109,19 @@ body {
 #introductionDoubleDownArrow {
     width: 20px;
     margin: 7vh 0 0 0;
+}
+
+#projectsContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.project {
+    width: 48%;
+    /* height: 100px; */
+    padding-top: 33%;
+    margin: 10px 1% 10px 1%;
+    background-color: blue;
 }
