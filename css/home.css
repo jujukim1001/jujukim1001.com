@@ -43,8 +43,8 @@ body {
 #content {
     display: flex;
     flex-direction: column;    
-    padding-left: 147px;
-    padding-right: 147px;
+    padding-left: 6vw;
+    padding-right: 6vw;
     /* background-color: green; */
 }
 
@@ -62,7 +62,7 @@ body {
     justify-content: center;
     height: 700px;
     /* background-color: greenyellow; */
-    padding: 0px 196px 0px 196px;
+    padding: 0px 10vw 0px 10vw;
 }
 
 .introductionItem {
@@ -73,11 +73,11 @@ body {
 #introductionTitleContainer {
     display: flex;
     flex-direction: row;
-    font-size: 43px;
 }
 
 #introductionTitle {
     color: #121111;
+    font-size: 48px;
 }
 
 .titleAccent {
@@ -88,4 +88,5 @@ body {
     font-size: 26px;
     color: #121111;
     line-height: 45px;
+    max-width: 780px;
 }
