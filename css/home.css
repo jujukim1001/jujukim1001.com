@@ -56,8 +56,8 @@ body {
 }
 
 .menuItem {
-    font-size: 20px;
-    padding: 0px 20px 0px 20px;
+    font-size: 15px;
+    padding: 0px 10px 0px 40px;
     font-weight: 700;
 }
 
@@ -138,27 +138,27 @@ body {
 
 .projectInfoContainer {
     width: 100%;
-    height: 14vw;
+    height: 17vw;
 }
 
 .projectInfoTag {
     margin-top: 1.7vw;
     color: #85858D;
-    font-size: 1.2vw;
+    font-size: 1.1vw;
     font-weight: 500;
 }
 
 .projectInfoTitle {
-    margin-top: 0.7vw;
+    margin-top: 0.5vw;
     color: #121111;
-    font-size: 1.8vw;
+    font-size: 2vw;
     font-weight: 700;
 }
 
 .projectInfoDescription {
     margin-top: 0.7vw;
     color: #242424;
-    font-size: 1.4vw;
+    font-size: 1.2vw;
     font-weight: 500;
-    line-height: 1.8vw;
+    line-height: 1.7vw;
 }
