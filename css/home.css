@@ -16,6 +16,12 @@
     font-weight: 700;
 }
 
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/Poppins-Bold.ttf);
+    font-weight: 700;
+}
+
 body {
     margin: 0px;
     font-family: proximaNova;
@@ -25,13 +31,14 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 20px 0px 0px 0px;
+    padding: 30px 0px 0px 0px;
     height: 80px;
     /* background-color: red; */
 }
 
 .menuItem {
-    padding: 15px;
+    font-size: 20px;
+    padding: 0px 20px 0px 20px;
     font-weight: 700;
 }
 
@@ -43,8 +50,8 @@ body {
 #content {
     display: flex;
     flex-direction: column;    
-    padding-left: 6vw;
-    padding-right: 6vw;
+    padding-left: 8vw;
+    padding-right: 8vw;
     /* background-color: green; */
 }
 
@@ -60,14 +67,15 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 700px;
+    height: 70vh;
+    min-height: 500px;
     /* background-color: greenyellow; */
-    padding: 0px 10vw 0px 10vw;
+    padding: 0px 12vw 0px 12vw;
 }
 
 .introductionItem {
     padding: 30px 0px 30px 0px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 #introductionTitleContainer {
@@ -78,6 +86,8 @@ body {
 #introductionTitle {
     color: #121111;
     font-size: 48px;
+    font-family: poppins;
+    font-weight: 700;
 }
 
 .titleAccent {
@@ -89,4 +99,14 @@ body {
     color: #121111;
     line-height: 45px;
     max-width: 780px;
+}
+
+#introductionDoubleDownArrowContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#introductionDoubleDownArrow {
+    width: 20px;
+    margin: 7vh 0 0 0;
 }
