@@ -31,6 +31,7 @@
 body {
     margin: 0px;
     font-family: proximaNova;
+    font-weight: 400;
 }
 
 #longCoverImage {
@@ -49,8 +50,9 @@ body {
 .bodyContent {
     display: flex;
     flex-direction: column;    
-    padding-left: 15vw;
-    padding-right: 15vw;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    margin-top: 5vw;
     /* background-color: green; */
 }
 
@@ -71,12 +73,12 @@ body {
 #introductionContainer {
     display: flex;
     flex-direction: column;
-    margin-top: 5vw;
+    margin-top: 2vw;
 }
 
 #introductionTitle {
     font-family: poppins;
-    font-size: 32px;
+    font-size: 42px;
     color: #000000
 }
 
@@ -93,7 +95,6 @@ body {
     margin-right: 10%;
     max-width: 45%;
     min-width: 300px;
-    flex-grow: 1;
 }
 
 #introductionDescriptionRightContainer {
@@ -101,7 +102,6 @@ body {
     flex-direction: column;
     max-width: 45%;
     min-width: 300px;
-    flex-grow: 1;
 }
 
 #introductionOverviewContainer {
@@ -142,7 +142,13 @@ body {
     font-size: 14px;
 }
 
-@media only screen and (max-width: 952px) {
+@media only screen and (max-width: 1112px) {
+    #introductionContainer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0vw;
+    }
+
     #introductionDescriptionLeftContainer {
         display: flex;
         flex-direction: column;
@@ -163,7 +169,7 @@ body {
         color: #121111;
         font-size: 17px;
         line-height: 27px;
-        padding-bottom: 8vw;
+        padding-bottom: 4vw;
     }
 
     #longCoverImage {
