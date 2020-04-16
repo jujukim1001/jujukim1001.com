@@ -42,7 +42,7 @@ body {
     color: green;
 }
 
-#content {
+.content {
     display: flex;
     flex-direction: column;    
     padding-left: 10vw;
