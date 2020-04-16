@@ -45,8 +45,8 @@ body {
 #content {
     display: flex;
     flex-direction: column;    
-    padding-left: 8vw;
-    padding-right: 8vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
     /* background-color: green; */
 }
 
@@ -54,25 +54,25 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 30px 0px 0px 0px;
+    padding: 45px 0px 0px 0px;
     height: 80px;
     /* background-color: red; */
 }
 
 #logo {
-    height: 30px;
+    height: 33px;
     /* background-color: blanchedalmond; */
 }
 
 .menuItem {
-    font-size: 15px;
+    font-size: 16px;
     padding: 0px 10px 0px 40px;
-	font-weight: 700;
+	font-weight: 300;
 	color: #85858D;
 }
 
 .menuItemSelected {
-    font-size: 15px;
+    font-size: 16px;
     padding: 0px 10px 0px 40px;
 	font-weight: 700;
 	color: #000000;
@@ -108,11 +108,11 @@ body {
     justify-content: center;
     min-height: 600px;
     /* background-color: greenyellow; */
-    padding: 7vh 12vw 7vh 12vw;
+    padding: 6vh 6vw 12vh 6vw;
 }
 
 .introductionItem {
-    padding: 30px 0px 30px 0px;
+    padding: 25px 0px 25px 0px;
     font-weight: 600;
 }
 
@@ -123,7 +123,7 @@ body {
 
 #introductionTitle {
     color: #121111;
-    font-size: 48px;
+    font-size: 43px;
     font-family: poppins;
     font-weight: 700;
 }
@@ -146,8 +146,8 @@ body {
 }
 
 #introductionDoubleDownArrow {
-    width: 20px;
-    margin: 7vh 0 0 0;
+    width: 23px;
+    margin: 6vh 0 0 0;
 }
 
 #projectsContainer {
@@ -159,8 +159,8 @@ body {
 }
 
 .project {
-    width: 48%;
-    margin: 10px 1% 10px 1%;
+    width: 47%;
+    margin: 15px 1.5% 15px 1.5%;
     /* background-color: blue; */
 }
 
@@ -176,7 +176,7 @@ body {
 .projectInfoTag {
     margin-top: 1.7vw;
     color: #85858D;
-    font-size: 1.1vw;
+    font-size: 1.11vw;
     font-weight: 500;
 }
 
@@ -190,7 +190,51 @@ body {
 .projectInfoDescription {
     margin-top: 0.7vw;
     color: #242424;
-    font-size: 1.2vw;
+    font-size: 1.25vw;
     font-weight: 500;
     line-height: 1.7vw;
+}
+
+.footerDescription {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrow{
+    padding-top: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.arrow span{
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-bottom: 3px solid #121111;
+    border-right: 3px solid #121111;
+    transform: rotate(45deg);
+    margin: -11px;
+    animation: animate 2s infinite;
+}
+.arrow span:nth-child(2){
+    animation-delay: -0.2s;
+}
+.arrow span:nth-child(3){
+    animation-delay: -0.4s;
+}
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-15px,-15px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(3px,3px);
+    }
 }
