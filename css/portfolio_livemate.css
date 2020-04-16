@@ -1,0 +1,62 @@
+@font-face {
+    font-family: proximaNova;
+    src: url(../fonts/Proxima-Nova-Reg.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: proximaNova;
+    src: url(../fonts/Proxima-Nova-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: proximaNova;
+    src: url(../fonts/Proxima-Nova-Semibold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: proximaNova;
+    src: url(../fonts/Proxima-Nova-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/Poppins-Bold.ttf);
+    font-weight: 700;
+}
+
+
+
+body {
+    margin: 0px;
+    font-family: proximaNova;
+}
+
+#longCoverImage {
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;    
+    padding-left: 10vw;
+    padding-right: 10vw;
+    /* background-color: green; */
+}
+
+#navigationBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 45px 0px 0px 0px;
+    height: 80px;
+    /* background-color: red; */
+}
+
+#logo {
+    height: 33px;
+    /* background-color: blanchedalmond; */
+}
