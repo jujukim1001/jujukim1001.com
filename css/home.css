@@ -108,7 +108,7 @@ body {
     justify-content: center;
     min-height: 600px;
     /* background-color: greenyellow; */
-    padding: 6vh 6vw 12vh 6vw;
+    padding: 3vh 6vw 12vh 6vw;
 }
 
 .introductionItem {
@@ -160,12 +160,13 @@ body {
 
 .project {
     width: 47%;
-    margin: 15px 1.5% 15px 1.5%;
+    margin: 10px 1.5% 10px 1.5%;
     /* background-color: blue; */
 }
 
 .projectImage {
     width: 100%;
+    border-radius: 1em;
 }
 
 .projectInfoContainer {
@@ -203,7 +204,7 @@ body {
 }
 
 .arrow{
-    padding-top: 300px;
+    padding-top: 35vw;
     position: absolute;
     top: 50%;
     left: 50%;

@@ -124,7 +124,7 @@ a:hover {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	margin: 180px 100px 100px 100px;
+	margin: 150px 100px 100px 100px;
 }
 #profile {
 	max-width: 50%;
