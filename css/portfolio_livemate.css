@@ -28,8 +28,6 @@
     font-weight: 700;
 }
 
-
-
 body {
     margin: 0px;
     font-family: proximaNova;
@@ -37,6 +35,7 @@ body {
 
 #longCoverImage {
     width: 100%;
+    margin-top: 10vw;
 }
 
 .content {
@@ -44,6 +43,14 @@ body {
     flex-direction: column;    
     padding-left: 10vw;
     padding-right: 10vw;
+    /* background-color: green; */
+}
+
+.bodyContent {
+    display: flex;
+    flex-direction: column;    
+    padding-left: 15vw;
+    padding-right: 15vw;
     /* background-color: green; */
 }
 
@@ -59,4 +66,108 @@ body {
 #logo {
     height: 33px;
     /* background-color: blanchedalmond; */
+}
+
+#introductionContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vw;
+}
+
+#introductionTitle {
+    font-family: poppins;
+    font-size: 32px;
+    color: #000000
+}
+
+#introductionDescriptionContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 3vw;
+}
+
+#introductionDescriptionLeftContainer {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+    max-width: 45%;
+    min-width: 300px;
+    flex-grow: 1;
+}
+
+#introductionDescriptionRightContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 45%;
+    min-width: 300px;
+    flex-grow: 1;
+}
+
+#introductionOverviewContainer {
+}
+
+#introductionRoleContainer {
+
+}
+
+#introductionTeamContainer {
+
+}
+
+.introductionSectionTitle {
+    font-weight: 700;
+    color: #121111;
+    font-size: 17px;
+}
+
+.introductionSectionBody {
+    margin-top: 2vw;
+    font-weight: 400;
+    color: #121111;
+    font-size: 17px;
+    line-height: 27px;
+    padding-bottom: 3vw;
+}
+
+#seeFullButton {
+    margin-top: 4vw;
+    padding: 10px 40px 10px 40px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    border-width: 2px;
+    align-self: center;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 952px) {
+    #introductionDescriptionLeftContainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        min-width: 100%;
+    }
+    
+    #introductionDescriptionRightContainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        min-width: 100%;
+    }
+
+    .introductionSectionBody {
+        margin-top: 2vw;
+        font-weight: 400;
+        color: #121111;
+        font-size: 17px;
+        line-height: 27px;
+        padding-bottom: 8vw;
+    }
+
+    #longCoverImage {
+        width: 100%;
+        margin-top: 20vw;
+    }
 }
