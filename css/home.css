@@ -161,6 +161,7 @@ body {
 .project {
     width: 47%;
     margin: 10px 1.5% 10px 1.5%;
+    text-decoration: none;
     /* background-color: blue; */
 }
 
