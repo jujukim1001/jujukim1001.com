@@ -31,7 +31,9 @@
 .portfolioSection {
     display: flex;
     flex-direction: column;
+    margin-top: 5vw;
     margin-bottom: 5vw;
+
 }
 
 .sectionTitle {
@@ -142,7 +144,7 @@
     font-weight: 600;
     color: #0f0f0f;
     font-size: 25px;
-    margin: 6vw 0 6vw 0;
+    margin: 9vw 0 3vw 0;
 }
 
 .fullImageContainer {
