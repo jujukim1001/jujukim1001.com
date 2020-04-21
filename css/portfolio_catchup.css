@@ -149,9 +149,6 @@ body {
     font-size: 14px;
 }
 
-
-
-
 @media only screen and (max-width: 1112px) {
     #introductionContainer {
         display: flex;

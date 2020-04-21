@@ -373,6 +373,14 @@ a:hover {
         width: 100%;   
     }
 
+    .smallImageAndDescriptionContainer .descriptionContainer {
+        width: 100%;
+    }
+
+    .inversedSmallImageAndDescriptionContainer .descriptionContainer {
+        width: 100%;
+    }
+
     .imageAndDescriptionContainer .description {
         width: 100%;
         color: #121111;
