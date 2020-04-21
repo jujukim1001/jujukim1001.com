@@ -28,21 +28,30 @@
     font-weight: 700;
 }
 
+a {
+    text-decoration: none;
+    color: #121111;
+}
+
+a:hover {
+    background-color: #121111;
+    color: white;
+}
+
+.boldtext {
+    font-weight: 700;
+}
+
 .portfolioSection {
     display: flex;
     flex-direction: column;
     margin-bottom: 5vw;
 }
 
-.sectionTitle {
-    font-weight: 600;
-    font-size: 17px;
-    padding: 1vw 0 1vw 0;
-}
 
 .sectionHeader {
     font-weight: 700;
-    font-size: 30px;
+    font-size: 28px;
     padding: 1vw 0 1vw 0;
 }
 
@@ -126,7 +135,7 @@
 
 .smallImageAndDescriptionContainer .description {
     color: #121111;
-    font-size: 19px;
+    font-size: 21px;
     line-height: 30px;
 }
 
@@ -173,7 +182,7 @@
 
 .inversedSmallImageAndDescriptionContainer .description {
     color: #121111;
-    font-size: 19px;
+    font-size: 21px;
     line-height: 30px;
 }
 
@@ -231,7 +240,7 @@
 
 .bulletPointsContainer .bulletPoint {
     color: #121111;
-    font-size: 15px;
+    font-size: 16px;
     margin: 8px 0 8px 0;
     line-height: 26px;
 }
@@ -266,7 +275,7 @@
 .generalDescription {
     font-weight: 400;
     color: #0f0f0f;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 28px;
 }
 
