@@ -1,0 +1,413 @@
+@font-face {
+    font-family: proximaNova;
+    src: url(../fonts/Proxima-Nova-Reg.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: proximaNova;
+    src: url(../fonts/Proxima-Nova-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: proximaNova;
+    src: url(../fonts/Proxima-Nova-Semibold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: proximaNova;
+    src: url(../fonts/Proxima-Nova-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/Poppins-Bold.ttf);
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: #121111;
+}
+
+a:hover {
+    background-color: #121111;
+    color: white;
+}
+
+.boldtext {
+    font-weight: 700;
+}
+
+.portfolioSection {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5vw;
+}
+
+
+.sectionHeader {
+    font-weight: 700;
+    font-size: 28px;
+    padding: 1vw 0 1vw 0;
+}
+
+/* Image And Description Container */
+
+.imageAndDescriptionContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 5vw;
+}
+
+.imageAndDescriptionContainer img {
+    max-width: 50%;
+    width: auto;
+    height: auto;
+    margin-right: 5%;
+    object-fit: contain;
+    align-self: flex-start;
+}
+
+.imageAndDescriptionContainer .descriptionContainer {
+    flex-direction: column;
+    width: 45%;   
+    margin-top: 5vw;
+}
+
+.imageAndDescriptionContainer .decorationView {
+    background-color: #444444;
+    height: 3px;
+    width: 35px;
+    margin-bottom: 2vw;
+}
+
+.imageAndDescriptionContainer .description {
+    color: #121111;
+    line-height: 30px;
+}
+
+.imageAndDescriptionContainer .bulletPoint {
+    font-weight: 400;
+    color: #121111;
+    line-height: 25px;
+}
+
+/* small image and escription */ 
+
+.smallImageAndDescriptionContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 5vw;
+}
+
+.smallImageAndDescriptionContainer .title {
+    font-weight: 700;
+    font-size: 13px;
+}
+.smallImageAndDescriptionContainer img {
+    max-width: 30%;
+    width: auto;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 15%;
+    object-fit: contain;
+    align-self: flex-start;
+    float: left;
+}
+
+.smallImageAndDescriptionContainer .descriptionContainer {
+    flex-direction: column;
+    width: 45%;   
+    margin-top: 5vw;
+}
+
+.smallImageAndDescriptionContainer .decorationView {
+    background-color: #444444;
+    height: 3px;
+    width: 35px;
+    margin-bottom: 2vw;
+}
+
+.smallImageAndDescriptionContainer .description {
+    color: #121111;
+    font-size: 21px;
+    line-height: 30px;
+}
+
+.smallImageAndDescriptionContainer .bulletPoint {
+    font-weight: 400;
+    color: #121111;
+    line-height: 25px;
+}
+
+/* inversed small image and escription */ 
+
+.inversedSmallImageAndDescriptionContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 5vw;
+}
+
+.inversedSmallImageAndDescriptionContainer .title {
+    font-weight: 700;
+    font-size: 13px;
+}
+.inversedSmallImageAndDescriptionContainer img {
+    max-width: 30%;
+    width: auto;
+    height: auto;
+    margin-left: 15%;
+    object-fit: contain;
+    align-self: flex-start;
+    float: right;
+}
+
+.inversedSmallImageAndDescriptionContainer .descriptionContainer {
+    flex-direction: column;
+    width: 55%;   
+    margin-top: 5vw;
+}
+
+.inversedSmallImageAndDescriptionContainer .decorationView {
+    background-color: #444444;
+    height: 3px;
+    width: 35px;
+    margin-bottom: 2vw;
+}
+
+.inversedSmallImageAndDescriptionContainer .description {
+    color: #121111;
+    font-size: 21px;
+    line-height: 30px;
+}
+
+.inversedSmallImageAndDescriptionContainer .bulletPoint {
+    font-weight: 400;
+    color: #121111;
+    line-height: 25px;
+}
+
+/* Vertical Image And Description Container */
+
+.verticalImageAndDescriptionContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 0vw 8vw 2vw 8vw;
+}
+
+.verticalImageAndDescriptionContainer .description {
+    color: #121111;
+    line-height: 30px;
+    margin-top: 3vw;
+}
+
+
+/* Half Half Summary Container */
+
+.halfHalfSummaryContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 2vw 0 2vw 0;
+}
+
+.halfHalfSummaryContainer .bulletPointsContainer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 3vw;
+}
+
+/* bulletPointsContainer */
+
+.bulletPointsContainer .title {
+    color: #121111;
+    font-size: 22px;
+    margin-bottom: 1vw;
+}
+
+.bulletPointsContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 3vw;
+}
+
+.bulletPointsContainer .bulletPoint {
+    color: #121111;
+    font-size: 16px;
+    margin: 8px 0 8px 0;
+    line-height: 26px;
+}
+
+/* */
+
+.subtitleAndBodyContainer {
+
+}
+
+.subtitleAndBodyContainer .subtitle {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.subtitleAndBodyContainer .body {
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+/* ELSE */
+
+.centerMessage {
+    align-self: center;
+    font-weight: 600;
+    color: #0f0f0f;
+    font-size: 25px;
+    margin: 5vw 0 5vw 0;
+}
+
+.generalDescription {
+    font-weight: 400;
+    color: #0f0f0f;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.fullImageContainer {
+    width: 100;
+}
+
+.fullWidthImage {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.decorationView {
+    background-color: #444444;
+    height: 3px;
+    width: 35px;
+    margin-bottom: 2vw;
+}
+
+.halfSpacer {
+    height: 0.5vw;
+}
+
+.oneSpacer {
+    height: 1vw;
+}
+
+.oneHalfSpacer {
+    height: 1.5vw;
+}
+
+.twoSpacer {
+    height: 2vw;
+}
+
+.threeSpacer {
+    height: 3vw;
+}
+
+.fourSpacer {
+    height: 4vw;
+}
+
+.fiveSpacer {
+    height: 5vw;
+}
+
+.sixSpacer {
+    height: 6vw;
+}
+
+.sevenSpacer {
+    height: 7vw;
+}
+
+.eightSpacer {
+    height: 8vw;
+}
+
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 1112px) {
+    .imageAndDescriptionContainer img {
+        max-width: 100%;
+        width: auto;
+        height: auto;
+        margin-right: 0%;
+        min-width: 100%;
+        object-fit: contain;
+        align-self: flex-start;
+    }
+
+    .smallImageAndDescriptionContainer img {
+        max-width: 50%;
+        width: auto;
+        height: auto;
+        margin-left: 25%;
+        margin-right: 25%;
+        object-fit: contain;
+        align-self: flex-start;
+    }
+
+    .inversedSmallImageAndDescriptionContainer img {
+        max-width: 50%;
+        width: auto;
+        height: auto;
+        margin-left: 25%;
+        margin-right: 25%;
+        object-fit: contain;
+        align-self: flex-start;
+    }
+
+    .imageAndDescriptionContainer .descriptionContainer {
+        flex-direction: column;
+        width: 100%;   
+    }
+
+    .smallImageAndDescriptionContainer .descriptionContainer {
+        width: 100%;
+    }
+
+    .inversedSmallImageAndDescriptionContainer .descriptionContainer {
+        width: 100%;
+    }
+
+    .imageAndDescriptionContainer .description {
+        width: 100%;
+        color: #121111;
+        line-height: 30px;
+    }
+
+    .verticalImageAndDescriptionContainer {
+        display: flex;
+        flex-direction: column;
+        padding: 0vw 0vw 2vw 0vw;
+    }
+
+    .halfHalfSummaryContainer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0vw 0 5vw 0;
+    }
+
+    .halfHalfSummaryContainer .bulletPointsContainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 5vw;
+    }    
+}
