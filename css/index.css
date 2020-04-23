@@ -108,7 +108,7 @@ body {
     justify-content: center;
     min-height: 600px;
     /* background-color: greenyellow; */
-    padding: 3vh 8vw 12vh 8vw;
+    padding: 0vh 7vw 10vh 7vw;
 }
 
 .introductionItem {
@@ -154,13 +154,13 @@ body {
     display: flex;
     justify-content: flex-start;
     align-content: flex-start;
-    margin: 0 4vw 0 4vw;
+    margin: 0 3vw 0 3vw;
     flex-wrap: wrap;
 }
 
 .project {
-    width: 45%;
-    margin: 10px 2.5% 10px 2.5%;
+    width: 46%;
+    margin: 10px 2% 10px 2%;
     text-decoration: none;
     /* background-color: blue; */
 }
