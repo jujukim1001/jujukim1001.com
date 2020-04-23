@@ -160,7 +160,7 @@ body {
 
 .project {
     width: 46%;
-    margin: 10px 2% 10px 2%;
+    margin: 3vw 2% 3vw 2%;
     text-decoration: none;
     /* background-color: blue; */
 }
@@ -178,7 +178,6 @@ body {
 
 .projectInfoContainer {
     width: 100%;
-    height: 12vw;
 }
 
 .projectInfoTag {
@@ -211,12 +210,12 @@ body {
 }
 
 .arrow{
-    padding-top: 35vw;
+    padding-top: 15vw;
     position: absolute;
-    top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
+
 .arrow span{
     display: block;
     width: 15px;
@@ -232,6 +231,15 @@ body {
 }
 .arrow span:nth-child(3){
     animation-delay: -0.4s;
+}
+
+@media only screen and (max-width: 912px) {
+    .project {
+        width: 92%;
+        /* margin: 10px 4% 10px 4%; */
+        text-decoration: none;
+        /* background-color: blue; */
+    }
 }
 @keyframes animate {
     0%{
