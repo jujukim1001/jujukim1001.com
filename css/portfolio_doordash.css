@@ -1,0 +1,205 @@
+@font-face {
+    font-family: proximaNova;
+    src: url(../fonts/Proxima-Nova-Reg.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: proximaNova;
+    src: url(../fonts/Proxima-Nova-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: proximaNova;
+    src: url(../fonts/Proxima-Nova-Semibold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: proximaNova;
+    src: url(../fonts/Proxima-Nova-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/Poppins-Bold.ttf);
+    font-weight: 700;
+}
+
+body {
+    margin: 0px;
+    font-family: proximaNova;
+    font-weight: 400;
+}
+
+.sectionTitle {
+    font-weight: 600;
+    font-size: 15px;
+    padding: 1vw 0 1vw 0;
+    color: #ff7158;
+}
+
+#longCoverImage {
+    width: 100%;
+    margin-top: 5vw;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;    
+    padding-left: 10vw;
+    padding-right: 10vw;
+    /* background-color: green; */
+}
+
+.bodyContent {
+    display: flex;
+    flex-direction: column;    
+    padding-left: 20vw;
+    padding-right: 20vw;
+    margin-top: 1vw;
+    /* background-color: green; */
+}
+
+#navigationBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 45px 0px 0px 0px;
+    height: 80px;
+    /* background-color: red; */
+}
+
+#logo {
+    height: 33px;
+    /* background-color: blanchedalmond; */
+}
+
+#introductionContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vw;
+}
+
+#introductionTitle {
+    font-family: poppins;
+    font-size: 35px;
+    color: #000000
+}
+
+#introductionDescriptionContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 2vw;
+}
+
+#introductionDescriptionLeftContainer {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+    max-width: 45%;
+    min-width: 300px;
+}
+
+#introductionDescriptionRightContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 45%;
+    min-width: 300px;
+}
+
+#introductionOverviewContainer {
+}
+
+#introductionRoleContainer {
+
+}
+
+#introductionTeamContainer {
+
+}
+
+.introductionSectionTitle {
+    font-weight: 700;
+    color: #121111;
+    font-size: 16px;
+}
+
+.introductionSectionBody {
+    margin-top: 2vw;
+    font-weight: 400;
+    color: #121111;
+    font-size: 17px;
+    line-height: 27px;
+    padding-bottom: 3vw;
+}
+
+#seeFullButton {
+    margin-top: 2vw;
+    padding: 10px 40px 10px 40px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    border-width: 2px;
+    align-self: center;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#projectIdeationSection .halfHalfSummaryContainer .bulletPointsContainer {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-right: 5%;
+    margin-top: 3vw;
+
+}
+
+#solutionAnalysisSection .halfHalfSummaryContainer .bulletPointsContainer {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-right: 5%;
+    margin-top: 3vw;
+
+}
+
+
+@media only screen and (max-width: 1112px) {
+    #introductionContainer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0vw;
+    }
+
+    #introductionDescriptionLeftContainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        min-width: 100%;
+    }
+    
+    #introductionDescriptionRightContainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        min-width: 100%;
+    }
+
+    .introductionSectionBody {
+        margin-top: 2vw;
+        font-weight: 400;
+        color: #121111;
+        font-size: 16px;
+        line-height: 27px;
+        padding-bottom: 4vw;
+    }
+
+    #longCoverImage {
+        width: 100%;
+        margin-top: 5vw;
+    }
+}
