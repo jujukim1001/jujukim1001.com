@@ -146,6 +146,18 @@ a:hover {
     line-height: 25px;
 }
 
+footer {
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.footerDescription {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* inversed small image and escription */ 
 
 .inversedSmallImageAndDescriptionContainer {
@@ -290,12 +302,49 @@ a:hover {
     max-height: 100%;
 }
 
-
 .decorationView {
     background-color: #444444;
     height: 3px;
     width: 35px;
     margin-bottom: 2vw;
+}
+
+.bottomNavigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+#homeNavigation {
+    width: 40px;
+}
+
+a:hover {
+    background: none;
+    text-decoration: none;
+    color: #121111;
+}
+
+#leftNavigation {
+    margin-left: 7vw;
+}
+
+#rightNavigation {
+    margin-right: 7vw;
+}
+
+.arrowImage {
+    margin: 0 2vw 0 2vw;
+    width: 30px;
+}
+
+.horizontalDiv {
+    display: flex;
+    align-items: center;
+}
+
+.navigationTitle {
+    font-weight: 700;
+    font-size: 18px;
 }
 
 .halfSpacer {
@@ -410,4 +459,9 @@ a:hover {
         width: 100%;
         margin-top: 5vw;
     }    
+
+    .navigationTitle {
+        font-weight: 700;
+        font-size: 15px;
+    }
 }
