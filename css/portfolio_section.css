@@ -38,6 +38,11 @@ a:hover {
     color: white;
 }
 
+.line {
+    background-color: #E8E8E8;
+    height: 1px;
+}
+
 .boldtext {
     font-weight: 700;
 }
