@@ -51,11 +51,7 @@ body {
 }
 
 #navigationBar {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 45px 0px 0px 0px;
-    height: 80px;
+    margin: 45px 0px 0px 0px;
     /* background-color: red; */
 }
 
@@ -165,6 +161,10 @@ body {
     /* background-color: blue; */
 }
 
+.project:hover {
+    text-decoration: none;
+}
+
 .projectImage {
     width: 100%;
     transition: transform .2s;
@@ -234,7 +234,65 @@ body {
     animation-delay: -0.4s;
 }
 
-@media only screen and (max-width: 912px) {
+.nav-item{
+    text-align: right;
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+    background-image: url(https://i.stack.imgur.com/mSXoO.png)!important;
+    outline: none!important;
+}
+
+.navbar-toggler[aria-expanded="false"] .navbar-toggler-icon {
+    background-image: url(https://i.stack.imgur.com/mSXo2.png)!important;
+    outline: none!important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+button.navbar-toggler,
+button.navbar-toggler:focus {
+    border: none;
+
+}
+
+@media only screen and (max-width: 992px) {
+    .project {
+        width: 92%;
+        /* margin: 10px 4% 10px 4%; */
+        text-decoration: none;
+        /* background-color: blue; */
+    }
+    
+    .navbar-collapse {
+        margin-top: 10px;
+    }
+
+    .menuItemSelected {
+        font-size: 24px;
+        text-align: right;
+        margin-top: 10px;
+    }
+
+    .menuItem {
+        font-size: 24px;
+        text-align: right;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-device-width : 992px) {
+    /* Styles */
+    .menuItem {
+        font-size: 24px;
+        text-align: right;
+    }
+
     .project {
         width: 92%;
         /* margin: 10px 4% 10px 4%; */
@@ -242,6 +300,8 @@ body {
         /* background-color: blue; */
     }
 }
+
+
 @keyframes animate {
     0%{
         opacity: 0;
