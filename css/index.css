@@ -234,6 +234,10 @@ body {
     animation-delay: -0.4s;
 }
 
+.navbar {
+    padding: 0;
+}
+
 .nav-item{
     text-align: right;
 }

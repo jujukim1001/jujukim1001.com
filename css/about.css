@@ -48,11 +48,7 @@ h2 {
 }
 
 #navigationBar {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     padding: 45px 0px 0px 0px;
-    height: 80px;
     /* background-color: red; */
 }
 
@@ -172,10 +168,61 @@ a:hover {
 }
 
 .footerDescription {
-	   margin-top: 100px;
+	margin-top: 100px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.nav-item{
+    text-align: right;
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+    background-image: url(https://i.stack.imgur.com/mSXoO.png)!important;
+    outline: none!important;
+}
+
+.navbar-toggler[aria-expanded="false"] .navbar-toggler-icon {
+    background-image: url(https://i.stack.imgur.com/mSXo2.png)!important;
+    outline: none!important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+button.navbar-toggler,
+button.navbar-toggler:focus {
+    border: none;
+
+}
+
+
+
+@media only screen and (max-width: 992px) {
+	.navbar-collapse {
+		margin-top: 10px;
+	}
+
+	.menuItemSelected {
+		font-size: 24px;
+		text-align: right;
+		margin-top: 10px;
+	}
+
+	.menuItem {
+		font-size: 24px;
+		text-align: right;
+		margin-top: 10px;
+	}
 }
 
 
@@ -198,5 +245,12 @@ a:hover {
 		display: flex;
 		flex-direction: column;
 	}
+}
 
+@media only screen and (max-device-width : 992px) {
+    /* Styles */
+    .menuItem {
+        font-size: 24px;
+        text-align: right;
+    }
 }
