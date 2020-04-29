@@ -34,6 +34,27 @@ body {
     font-weight: 400;
 }
 
+a {
+    text-decoration: none;
+    color: #121111;
+}
+
+a:hover {
+    background-color: #121111;
+    color: white;
+}
+
+a:hover {
+    background: none;
+    text-decoration: none;
+    color: #121111;
+}
+
+.line {
+    background-color: #E8E8E8;
+    height: 1px;
+}
+
 .sectionTitle {
     font-weight: 600;
     font-size: 15px;
@@ -104,6 +125,24 @@ body {
     min-width: 300px;
 }
 
+.verticalImageAndDescriptionContainer .description {
+    color: #121111;
+    line-height: 30px;
+    margin-top: 3vw;
+}
+
+.imageAndDescriptionContainer .description {
+    color: #121111;
+    line-height: 30px;
+}
+
+.generalDescription {
+    font-weight: 400;
+    color: #0f0f0f;
+    font-size: 16px;
+    line-height: 28px;
+}
+
 #introductionDescriptionRightContainer {
     display: flex;
     flex-direction: column;
@@ -169,6 +208,12 @@ body {
         flex-direction: column;
         width: 100%;
         min-width: 100%;
+    }
+
+    .imageAndDescriptionContainer .description {
+        width: 100%;
+        color: #121111;
+        line-height: 30px;
     }
 
     .introductionSectionBody {

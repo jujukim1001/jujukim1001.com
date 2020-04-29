@@ -32,53 +32,42 @@ body {
     margin: 0px;
     font-family: proximaNova;
     font-weight: 400;
+    background-color: black;
 }
 
 a {
     text-decoration: none;
-    color: #121111;
+    color: white;
 }
 
 a:hover {
-    background-color: #121111;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 a:hover {
     background: none;
     text-decoration: none;
-    color: #121111;
+    color: #8b8b8b;
 }
 
 .line {
-    background-color: #E8E8E8;
+    background-color: #3a3a3a;
     height: 1px;
 }
+
 
 .sectionTitle {
     font-weight: 600;
     font-size: 15px;
     padding: 1vw 0 1vw 0;
-    color: #34969C;
+    color: #9965f0;
 }
 
-.verticalImageAndDescriptionContainer .description {
-    color: #121111;
-    line-height: 30px;
-    margin-top: 3vw;
+.sectionHeader {
+    color: white;
 }
 
-.imageAndDescriptionContainer .description {
-    color: #121111;
-    line-height: 30px;
-}
-
-.generalDescription {
-    font-weight: 400;
-    color: #0f0f0f;
-    font-size: 16px;
-    line-height: 28px;
-}
 
 #longCoverImage {
     width: 100%;
@@ -125,7 +114,25 @@ a:hover {
 #introductionTitle {
     font-family: poppins;
     font-size: 42px;
-    color: #000000
+    color: white;
+}
+
+.verticalImageAndDescriptionContainer .description {
+    color: #e4e4e4;
+    line-height: 30px;
+    margin-top: 3vw;
+}
+
+.imageAndDescriptionContainer .description {
+    color: #e4e4e4;
+    line-height: 30px;
+}
+
+.generalDescription {
+    font-weight: 400;
+    color: #e4e4e4;
+    font-size: 16px;
+    line-height: 28px;
 }
 
 #introductionDescriptionContainer {
@@ -163,14 +170,14 @@ a:hover {
 
 .introductionSectionTitle {
     font-weight: 700;
-    color: #121111;
+    color: #E4E4E4;
     font-size: 16px;
 }
 
 .introductionSectionBody {
     margin-top: 2vw;
     font-weight: 400;
-    color: #121111;
+    color: #E4E4E4;
     font-size: 17px;
     line-height: 27px;
     padding-bottom: 3vw;
@@ -180,14 +187,14 @@ a:hover {
     margin-top: 2vw;
     padding: 10px 40px 10px 40px;
     border-style: solid;
-    border-color: black;
+    border-color: white;
     border-radius: 20px;
-    border-width: 2px;
+    border-width: 1px;
     align-self: center;
     font-weight: 600;
     font-size: 14px;
+    color: white;
 }
-
 
 @media only screen and (max-width: 1112px) {
     #introductionContainer {
@@ -202,6 +209,12 @@ a:hover {
         width: 100%;
         min-width: 100%;
     }
+
+    .imageAndDescriptionContainer .description {
+        width: 100%;
+        color: #E4E4E4;
+        line-height: 30px;
+    }
     
     #introductionDescriptionRightContainer {
         display: flex;
@@ -209,17 +222,11 @@ a:hover {
         width: 100%;
         min-width: 100%;
     }
-    
-    .imageAndDescriptionContainer .description {
-        width: 100%;
-        color: #121111;
-        line-height: 30px;
-    }
 
     .introductionSectionBody {
         margin-top: 2vw;
         font-weight: 400;
-        color: #121111;
+        color: #E4E4E4;
         font-size: 16px;
         line-height: 27px;
         padding-bottom: 4vw;
