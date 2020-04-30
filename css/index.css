@@ -243,12 +243,12 @@ body {
 }
 
 .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
-    background-image: url(https://i.stack.imgur.com/mSXoO.png)!important;
+    background-image: url(./../img/x.png)!important;
     outline: none!important;
 }
 
 .navbar-toggler[aria-expanded="false"] .navbar-toggler-icon {
-    background-image: url(https://i.stack.imgur.com/mSXo2.png)!important;
+    background-image: url(./../img/menu.png)!important;
     outline: none!important;
 }
 

@@ -84,6 +84,17 @@ a:hover {
     /* background-color: green; */
 }
 
+.descriptionContainer .title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.descriptionContainer .title .color {
+    font-size: 20px;
+    font-weight: 700;
+    color: #0092FF;
+}
+
 #navigationBar {
     display: flex;
     flex-direction: row;

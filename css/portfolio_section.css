@@ -225,8 +225,9 @@ footer {
 .halfHalfSummaryContainer .bulletPointsContainer {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 47%;
     margin-top: 3vw;
+    margin-right: 2vw;
 }
 
 /* bulletPointsContainer */
