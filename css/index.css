@@ -102,9 +102,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-height: 600px;
+    min-height: 800px;
     /* background-color: greenyellow; */
-    padding: 0vh 7vw 10vh 7vw;
+    padding: 8vh 7vw 10vh 7vw;
 }
 
 .introductionItem {
