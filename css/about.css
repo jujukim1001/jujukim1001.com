@@ -63,10 +63,14 @@ h2 {
     /* background-color: blanchedalmond; */
 }
 
+
+.horizontalSpace {
+    width: 40px;
+}
+
 .menuItem {
     font-size: 14px;
     letter-spacing: 0.14em;
-    padding: 0px 10px 0px 40px;
 	font-weight: 300;
 	color: #85858D;
 }
@@ -74,7 +78,6 @@ h2 {
 .menuItemSelected {
     font-size: 14px;
     letter-spacing: 0.14em;
-    padding: 0px 10px 0px 40px;
 	font-weight: 600;
 	color: #000000;
 }
@@ -85,6 +88,31 @@ h2 {
 
 .menuItemLink:visited {
     color: #85858D;
+}
+#menuItemContainer a {
+    position: relative;
+    color: #000;
+    text-decoration: none;
+}
+#menuItemContainer a:hover {
+    text-decoration: none;
+}
+
+#menuItemContainer  a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+}
+#menuItemContainer  a:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
 }
 
 .menuItemLinkSelected {
