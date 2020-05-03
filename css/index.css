@@ -248,7 +248,7 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        min-height: 800px;
+        min-height: 600px;
         /* background-color: greenyellow; */
         padding: 0vh 5vw 5vh 5vw;
     }
@@ -284,7 +284,7 @@ body {
     .projectInfoDescription {
         margin-top: 0.7vw;
         color: #414141;
-        font-size: 15px;
+        font-size: 16px;
         font-weight: 300;
         line-height: 22px;
     }
@@ -292,7 +292,7 @@ body {
     .projectInfoTitle {
         margin-top: 0.5vw;
         color: #121111;
-        font-size: 22px;
+        font-size: 24px;
         font-weight: 700;
     }
 }

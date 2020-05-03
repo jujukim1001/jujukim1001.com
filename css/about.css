@@ -163,15 +163,20 @@ a:hover {
     }
 
     #about {
-        margin: 150px 15px 100px 15px;
+        margin: 30px 30px 30px 30px;
     }
 
     #profile {
-        width: 50%;
-        max-width: 50%;
+        width: 100%;
+        max-width: 90%;
         min-width: 220px;  
         margin: 0px;
-        margin-bottom: 50px;
+        margin-bottom: 0px;
         max-height: none;
     }
+
+    #about_title {
+        font-size: 25px;
+    }
+
 }
