@@ -68,7 +68,9 @@ body {
     transform: scaleX(1);
 }
 
-
+.menuItemLink :visited{
+    color: green;
+}
 
 .content {
     display: flex;
@@ -432,9 +434,9 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        min-height: 600px;
+        min-height: 800px;
         /* background-color: greenyellow; */
-        padding: 0vh 5vw 0vh 5vw;
+        padding: 0vh 5vw 5vh 5vw;
     }
 
     #projectsContainer {
@@ -471,14 +473,14 @@ body {
     .projectInfoTag {
         margin-top: 15px;
         color: #85858D;
-        font-size: 14px;
+        font-size: 13px;
         font-weight: 500;
     }
 
     .projectInfoDescription {
         margin-top: 0.7vw;
         color: #414141;
-        font-size: 16px;
+        font-size: 15px;
         font-weight: 300;
         line-height: 22px;
     }
@@ -486,12 +488,8 @@ body {
     .projectInfoTitle {
         margin-top: 0.5vw;
         color: #121111;
-        font-size: 23px;
+        font-size: 22px;
         font-weight: 700;
-    }
-
-    #introductionTitleContainer {
-        margin-top: 0vw;
     }
 
 
