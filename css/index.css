@@ -30,6 +30,7 @@
 
 html {
     scroll-behavior: smooth;
+    width: 100vw;
 }
 
 body {
@@ -37,40 +38,6 @@ body {
     font-family: proximaNova;    
 }
 
-.menuItemLink {
-    text-decoration: none;
-}
-
-#menuItemContainer a {
-    position: relative;
-    color: #000;
-    text-decoration: none;
-}
-#menuItemContainer a:hover {
-    text-decoration: none;
-}
-
-
-#menuItemContainer  a:before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #000;
-    visibility: hidden;
-    transform: scaleX(0);
-    transition: all 0.3s ease-in-out 0s;
-}
-#menuItemContainer  a:hover:before {
-    visibility: visible;
-    transform: scaleX(1);
-}
-
-.menuItemLink :visited{
-    color: green;
-}
 
 .content {
     display: flex;
@@ -78,21 +45,6 @@ body {
     padding-left: 10vw;
     padding-right: 10vw;
     /* background-color: green; */
-}
-
-#navigationBar {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 45px 0px 0px 0px;
-    height: 80px;
-
-    /* background-color: red; */
-}
-
-#logo {
-    height: 33px;
-    /* background-color: blanchedalmond; */
 }
 
 .introLink {
@@ -111,48 +63,6 @@ body {
 
 #collectivehealthLink {
     cursor: url("./../img/collectivehealth_cursor.png"), auto;
-}
-
-.horizontalSpace {
-    width: 40px;
-}
-
-.menuItem {
-    font-size: 14px;
-    letter-spacing: 0.14em;
-	font-weight: 300;
-	color: #85858D;
-}
-
-.menuItemSelected {
-    font-size: 14px;
-    letter-spacing: 0.14em;
-	font-weight: 600;
-	color: #000000;
-}
-
-.menuItemLink {
-	text-decoration: none;
-}
-
-.menuItemLink:visited {
-    color: #85858D;
-}
-
-.menuItemLinkSelected {
-	text-decoration: none;
-}
-
-.menuItemLinkSelected:visited {
-    color: #000000;
-}
-
-#menuItemContainer {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    width: 100%;
-    height: 100%;
 }
 
 #introductionContainer {
@@ -303,80 +213,6 @@ body {
     width: 100%;
 }
 
-.overlayMenu {
-    display: flex;
-    position: fixed;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    z-index: 10;
-    width: 100vw;
-    height: 100vh;
-    background-color: #00A3FFee;
-}
-
-.overlayMenuItemLinkSelected, .overlayMenuItemLinkSelected:visited {
-    color: #000000;
-    font-size: 18px;
-    font-weight: 600;
-    padding: 20px;
-    letter-spacing: 0.1em;
-}
-
-.overlayMenuItemLink, .overlayMenuItemLink:visited {
-    color: #000000;
-    font-size: 18px;
-    font-weight: 600;
-    padding: 20px;
-    letter-spacing: 0.1em;
-}
-
-.slidedOverLeft {
-    transform: translateX(-100%);
-    transition: transform 0.2s ease-out 0s;
-}
-
-.slidedToScreen {
-    transform: translateX(0%);
-    transition: transform 0.2s ease-out 0s;
-}
-
-.menuButton {
-    visibility: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-}
-
-.menuButtonBurger::before,
-.menuButtonBurger::after {
-    content: '';
-    position: absolute;
-    width: 25px;
-    height: 3px;
-    background-color: black;
-    border-radius: 5px;
-    transition: transform .5s ease-in-out;
-}
-
-.menuButtonBurger::before {
-    transform: translateY(-8px);
-}
-
-.menuButtonBurger::after {
-    transform: translateY(8px);
-}
-
-.activated .menuButtonBurger::before {
-    transform: rotate(45deg);
-}
-
-.activated .menuButtonBurger::after {
-    transform: rotate(-45deg);
-}
 
 @media only screen and (max-width: 992px) {
     .project {
@@ -385,32 +221,9 @@ body {
         text-decoration: none;
         /* background-color: blue; */
     }
-
-    #menuItemContainer {
-        visibility: hidden;
-    }
-
-    .menuButton, .menuButtonActivated {
-        width: 30px;
-        visibility: visible;
-        cursor: pointer;
-        z-index: 100;
-    }
 }
 
-@media only screen and (max-device-width : 992px) {
-    /* Styles */
-    .menuButton, .menuButtonActivated {
-        width: 80px;
-        visibility: visible;
-        cursor: pointer;
-        z-index: 100;
-    }
-
-    #menuItemContainer {
-        visibility: hidden;
-    }
-
+@media only screen and (max-device-width : 992px) { 
     .project {
         width: 100%;
         /* margin: 10px 4% 10px 4%; */
@@ -455,15 +268,7 @@ body {
         padding-right: 15px;
     }
 
-    #navigationBar {
-        padding: 15px 5px 5px 5px;
-        height: 80px;
-    }
-
-    #logo {
-        height: 27px;
-    }
-
+  
     .introductionItem {
         padding: 15px 0px 15px 0px;
         font-weight: 600;
