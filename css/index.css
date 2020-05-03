@@ -295,6 +295,10 @@ body {
         font-size: 24px;
         font-weight: 700;
     }
+
+    .footerDescription {
+        font-size: 13px;
+    }
 }
 
 
