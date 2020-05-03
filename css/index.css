@@ -65,17 +65,37 @@ body {
     /* background-color: blanchedalmond; */
 }
 
+.introLink {
+    color: #121211;
+    text-decoration: underline;
+}
+
+.introLink:hover {
+    color: #12121133;
+    text-decoration: none;
+}
+
+#doordashLink {
+    cursor: url("./../img/doordash_cursor.png"), auto;
+}
+
+#collectivehealthLink {
+    cursor: url("./../img/collectivehealth_cursor.png"), auto;
+}
+
 .menuItem {
-    font-size: 16px;
+    font-size: 14px;
+    letter-spacing: 0.14em;
     padding: 0px 10px 0px 40px;
 	font-weight: 300;
 	color: #85858D;
 }
 
 .menuItemSelected {
-    font-size: 16px;
+    font-size: 14px;
+    letter-spacing: 0.14em;
     padding: 0px 10px 0px 40px;
-	font-weight: 700;
+	font-weight: 600;
 	color: #000000;
 }
 
