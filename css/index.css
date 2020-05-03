@@ -170,6 +170,7 @@ body {
 }
 
 #introductionTitleContainer {
+    margin-top: 15vw;
     display: flex;
     flex-direction: row;
 }
@@ -315,16 +316,18 @@ body {
 
 .overlayMenuItemLinkSelected, .overlayMenuItemLinkSelected:visited {
     color: #000000;
-    font-size: 30px;
-    font-weight: 700;
-    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px;
+    letter-spacing: 0.1em;
 }
 
 .overlayMenuItemLink, .overlayMenuItemLink:visited {
     color: #000000;
-    font-size: 30px;
-    font-weight: 700;
-    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px;
+    letter-spacing: 0.1em;
 }
 
 .slidedOverLeft {
@@ -397,7 +400,7 @@ body {
 @media only screen and (max-device-width : 992px) {
     /* Styles */
     .menuButton, .menuButtonActivated {
-        width: 30px;
+        width: 80px;
         visibility: visible;
         cursor: pointer;
         z-index: 100;
@@ -408,11 +411,89 @@ body {
     }
 
     .project {
-        width: 92%;
+        width: 100%;
         /* margin: 10px 4% 10px 4%; */
         text-decoration: none;
         /* background-color: blue; */
+        margin-bottom: 50px;
     }
+
+    #introductionTitle {
+        font-size: 35px;
+        font-family: poppins;
+        font-weight: 700;
+    }
+
+    #introductionSubtitle {
+        font-size: 20px;
+        line-height: 34px;
+        max-width: 800px;
+    }
+
+    #introductionContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 800px;
+        /* background-color: greenyellow; */
+        padding: 0vh 5vw 5vh 5vw;
+    }
+
+    #projectsContainer {
+        display: flex;
+        justify-content: flex-start;
+        align-content: flex-start;
+        margin: 0 0vw 0 0vw;
+        flex-wrap: wrap;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;    
+        padding-left: 15px;
+        padding-right: 15px;
+
+    }
+
+    #navigationBar {
+        padding: 15px 5px 5px 5px;
+        height: 80px;
+    
+    }
+
+    #logo {
+        height: 27px;
+    }
+
+    .introductionItem {
+        padding: 15px 0px 15px 0px;
+        font-weight: 600;
+    }
+
+    .projectInfoTag {
+        margin-top: 15px;
+        color: #85858D;
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .projectInfoDescription {
+        margin-top: 0.7vw;
+        color: #414141;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 22px;
+    }
+
+    .projectInfoTitle {
+        margin-top: 0.5vw;
+        color: #121111;
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+
+
 }
 
 
