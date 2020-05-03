@@ -42,7 +42,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
 #content {
     display: flex;
     flex-direction: column;    
@@ -57,7 +56,7 @@ html {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	padding: 15px 0px 0px 0px;
+	padding: 45px 0px 0px 0px;
 	height: 80px;
 	
     /* background-color: red; */
@@ -152,12 +151,12 @@ a:hover {
 	display: flex;
 	flex-direction: row;
 }
-#contents_container {
+#about_container {
 	display: flex;
 	justify-content:center;
 }
 
-#contents {
+#about {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -307,13 +306,14 @@ a:hover {
 
 
 @media only screen and (max-width: 1208px) {
-	#contents {
+	#about {
 		justify-content: center;
 	}
 
   	#profile {
   		width: 50%;
-  		max-width: 50%;
+        max-width: 50%;
+        min-width: 400px;  
   		margin: 0px;
   		margin-bottom: 50px;
   		max-height: none;
@@ -330,15 +330,42 @@ a:hover {
 @media only screen and (max-device-width : 992px) {
     /* Styles */
     .menuButton, .menuButtonActivated {
-        width: 30px;
+        width: 80px;
         visibility: visible;
         cursor: pointer;
         z-index: 100;
-	}
+    }
+    
+    #navigationBar {
+        padding: 15px 5px 5px 5px;
+        height: 80px;
+    }
 	
 	#menuItemContainer {
         visibility: hidden;
     }
-	
 
+    #content {
+        display: flex;
+        flex-direction: column;    
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    #logo {
+        height: 27px;
+    }
+
+    #about {
+        margin: 150px 15px 100px 15px;
+    }
+
+    #profile {
+        width: 50%;
+        max-width: 50%;
+        min-width: 220px;  
+        margin: 0px;
+        margin-bottom: 50px;
+        max-height: none;
+    }
 }
