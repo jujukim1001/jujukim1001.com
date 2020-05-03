@@ -448,3 +448,55 @@ footer {
         font-size: 15px;
     }
 }
+
+@media only screen and (max-device-width : 992px) { 
+    #navigationBar {
+        padding: 5px 5px 5px 5px;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;    
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #logo {
+        height: 27px;
+    }
+
+    .bodyContent {  
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 1vw;
+    }
+
+    #introductionTitle {
+        margin-top: 10px;
+        font-size: 35px;
+
+    }
+
+    #introductionDescriptionRightContainer {
+        margin-bottom: 30px;
+    }
+    .introductionSectionBody {
+        padding-bottom: 30px;
+    }
+
+    #seeFullButton {
+        margin-bottom: 30px;
+    }
+
+    .sectionHeader {
+        padding-bottom: 30px; 
+    }
+
+    .imageAndDescriptionContainer {
+        padding-bottom: 45px;
+    }
+
+    .portfolioSection {
+        padding-top: 15px;
+    }
+}
