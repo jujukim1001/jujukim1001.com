@@ -38,6 +38,13 @@ a:hover {
     color: white;
 }*/
 
+iframe {
+    width: 640px;
+    height: 360px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .boldtext {
     font-weight: 700;
@@ -306,6 +313,7 @@ footer {
     width: 40px;
 }
 
+
 /*a:hover {
     background: none;
     text-decoration: none;
@@ -321,8 +329,8 @@ footer {
 }
 
 .arrowImage {
-    margin: 0 2vw 0 2vw;
-    width: 30px;
+    margin: 0 1vw 0 1vw;
+    width: 20px;
 }
 
 .horizontalDiv {
@@ -499,4 +507,74 @@ footer {
     .portfolioSection {
         padding-top: 15px;
     }
+
+    .navigationTitle {
+        visibility: hidden;
+    }
+
+    .arrowImage {
+        width: 20px;
+    }
+
+    #homeNavigation {
+        width: 30px;
+    }
+
+    footer {
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+
+    .descriptionContainer {
+        margin-bottom: 30px;
+    }
+
+    .inversedSmallImageAndDescriptionContainer img {
+        max-width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;
+    }
+
+    .smallImageAndDescriptionContainer img {
+        max-width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;
+    }
+
+    .bulletPointsContainer {
+        margin-bottom: 15px;
+    }
+
+    .fullWidthImage {
+        margin-bottom: 15px;
+    }
+
+    .class {
+        margin-bottom: 15px;
+    }
+
+
+    .title {
+        padding-bottom: 10px;
+    }
+
+    .description {
+        margin-bottom: 10px;
+    }
+
+    iframe {
+        width: 320px;
+        height: 180px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+
 }
