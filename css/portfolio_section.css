@@ -343,6 +343,45 @@ footer {
     font-size: 18px;
 }
 
+/* Carousel */
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel .carousel-indicators li {
+    background-color: black;
+}
+.carousel .carousel-indicators li.active {
+    background-color: black;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    margin: 0px 10px 0px 10px;
+    border-radius: 100%;
+}
+
+.carousel-inner {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.carousel-control-next-icon {
+    margin-left: 75px;
+}
+
+.carousel-control-prev-icon {
+    margin-right: 75px;
+}
+
+/* Spacer */
+
 .halfSpacer {
     height: 0.5vw;
 }
