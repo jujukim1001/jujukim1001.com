@@ -198,7 +198,6 @@ a:hover {
     width: 45%;
     margin-right: 5%;
     margin-top: 3vw;
-
 }
 
 #solutionAnalysisSection .halfHalfSummaryContainer .bulletPointsContainer {
@@ -207,7 +206,6 @@ a:hover {
     width: 45%;
     margin-right: 5%;
     margin-top: 3vw;
-
 }
 
 
@@ -250,5 +248,38 @@ a:hover {
     #longCoverImage {
         width: 100%;
         margin-top: 5vw;
+    }
+
+    #projectIdeationSection .halfHalfSummaryContainer .bulletPointsContainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-right: 5%;
+        margin-top: 3vw;
+    }
+
+    #solutionAnalysisSection .halfHalfSummaryContainer .bulletPointsContainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-right: 5%;
+        margin-top: 3vw;
+    }
+}
+
+@media only screen and (max-device-width : 992px) { 
+    #projectIdeationSection .halfHalfSummaryContainer .bulletPointsContainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-right: 5%;
+        margin-top: 3vw;
+    }
+    #solutionAnalysisSection .halfHalfSummaryContainer .bulletPointsContainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-right: 5%;
+        margin-top: 3vw;
     }
 }
