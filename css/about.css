@@ -52,6 +52,24 @@ html {
     /* background-color: green; */
 }
 
+.socialLink:hover {
+    color: #12121133;
+    text-decoration: none;
+}
+
+#emailLink {
+    cursor: url("./../img/email_cursor.png"), auto;
+}
+
+#linkedinLink {
+    cursor: url("./../img/Linkedin_cursor.png"), auto;
+}
+
+#resumeLink {
+    cursor: url("./../img/resume_cursor.png"), auto;
+}
+
+
 p {
 	font-size: 16px;
 	margin: 0px;
@@ -116,6 +134,11 @@ a:hover {
 	text-decoration: underline;
 	margin-right: 25px;
 	
+}
+
+.social_link:hover {
+    color: #12121133;
+    text-decoration: none;
 }
 
 .footerDescription {
