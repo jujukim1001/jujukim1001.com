@@ -532,6 +532,7 @@ footer {
 
     }
 
+
     #introductionDescriptionRightContainer {
         margin-bottom: 30px;
     }
@@ -556,7 +557,7 @@ footer {
     }
 
     .navigationTitle {
-        visibility: hidden;
+        display: none;
     }
 
     .arrowImage {
@@ -622,6 +623,18 @@ footer {
         margin-right: auto;
         
     }
+
+    .carousel-control-next-icon {
+        margin-left: 0px;
+        height:15px;
+        width: 15px;
+    }
+
+    .carousel-control-prev-icon {
+        margin-right: 0px;
+        height:15px;
+        width: 15px;
+    }   
 
 
 }
