@@ -50,6 +50,36 @@ a:hover {
     color: #121111;
 }
 
+/* Button */
+
+#seeFullButton {
+    margin-top: 2vw;
+    padding: 10px 40px 10px 40px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    border-width: 2px;
+    align-self: center;
+    font-weight: 600;
+    font-size: 14px;
+    transition: 0.5s;
+}
+
+#seeFullButton:hover {
+    margin-top: 2vw;
+    padding: 10px 40px 10px 40px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 40px;
+    border-width: 2px;
+    align-self: center;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: black;
+    color: white;
+}
+
+
 /* Progress bar */
 
 .header {
@@ -201,17 +231,7 @@ a:hover {
     padding-bottom: 3vw;
 }
 
-#seeFullButton {
-    margin-top: 2vw;
-    padding: 10px 40px 10px 40px;
-    border-style: solid;
-    border-color: black;
-    border-radius: 20px;
-    border-width: 2px;
-    align-self: center;
-    font-weight: 600;
-    font-size: 14px;
-}
+
 
 #projectIdeationSection .halfHalfSummaryContainer .bulletPointsContainer {
     display: flex;

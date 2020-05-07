@@ -203,11 +203,26 @@ a:hover {
     padding: 10px 40px 10px 40px;
     border-style: solid;
     border-color: black;
-    border-radius: 20px;
+    border-radius: 10px;
     border-width: 2px;
     align-self: center;
     font-weight: 600;
     font-size: 14px;
+    transition: 0.5s;
+}
+
+#seeFullButton:hover {
+    margin-top: 2vw;
+    padding: 10px 40px 10px 40px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 40px;
+    border-width: 2px;
+    align-self: center;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: black;
+    color: white;
 }
 
 
