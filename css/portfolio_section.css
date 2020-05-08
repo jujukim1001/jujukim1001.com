@@ -325,10 +325,14 @@ footer {
 
 #leftNavigation {
     margin-left: 7vw;
+    width: 20vw;
 }
 
 #rightNavigation {
+    display: flex;
     margin-right: 7vw;
+    width: 20vw;
+    justify-content: flex-end;
 }
 
 .arrowImage {
